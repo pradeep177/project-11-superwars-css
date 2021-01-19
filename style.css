@@ -1,4 +1,55 @@
 .footer{
   margin-left : 80px;
   font-size : 18px;
+  margin-top:180px;
 }
+.grid-container {
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 3fr 1fr 1fr 2fr;
+  grid-gap:1em;
+  padding-right: 230px;
+}
+
+body{
+  border: 2px solid beige;
+  height : 400px;
+}
+
+.grid-container img{
+  width: 70px;
+  height: 70px;
+}
+
+
+.villian1{
+  border: 2px solid beige;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: center;
+}
+.villian2{
+  border: 2px solid beige;
+  grid-row: 1/2;
+  grid-column: 2/4;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.score{
+  display:grid;
+  align-content:center;
+  justify-content:center;
+}
+.hero1{
+  border: 2px solid beige;
+  display:grid;
+  grid-column: 5/7;
+  text-align: center;
+}
+
+.hero2{
+  border: 2px solid beige;
+  display:grid;
+  text-align: center;
+}
+
